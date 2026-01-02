@@ -1,0 +1,12 @@
+
+[global]
+
+min_icon_size = 0
+max_icon_size = 90
+transparency = 1
+background = "#28282b"
+frame_color = "#28282b"
+format = "<b>%s</b>\n\n<b>%b</b>"
+gap_size = 16
+corner_radius = 9
+font = "Google Sans Mono 11"

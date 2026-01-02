@@ -1,0 +1,143 @@
+#SYNTAX
+
+"attribute" = "jasmine"
+
+"type" = "jasmine"
+"type.enum.variant" = "teal"
+
+"constructor" = "sapphire"
+
+"constant" = "peach"
+"constant.character" = "teal"
+"constant.character.escape" = "whisteria"
+
+"string" = "green"
+"string.regexp" = "whisteria"
+"string.special" = "blue"
+"string.special.symbol" = "red"
+
+"comment" = { fg = "uitext", modifiers = ["italic"] }
+
+"variable" = "text"
+"variable.parameter" = { fg = "maroon", modifiers = ["italic"] }
+"variable.builtin" = "red"
+"variable.other.member" = "blue"
+
+"label" = "sapphire" # used for lifetimes
+
+"punctuation" = "jasmine"
+"punctuation.special" = "blue"
+
+"keyword" = "whisteria"
+"keyword.control.conditional" = { fg = "whisteria", modifiers = ["italic"] }
+
+"operator" = "blue"
+
+"function" = "blue"
+"function.macro" = "jasmine"
+
+"tag" = "blue"
+
+"namespace" = { fg = "jasmine", modifiers = ["italic"] }
+
+"special" = "blue" # fuzzy highlight
+
+"markup.heading.1" = "red"
+"markup.heading.2" = "peach"
+"markup.heading.3" = "jasmine"
+"markup.heading.4" = "green"
+"markup.heading.5" = "sapphire"
+"markup.heading.6" = "whisteria"
+"markup.list" = "teal"
+"markup.list.unchecked" = "uitext"
+"markup.list.checked" = "green"
+"markup.bold" = { fg = "red", modifiers = ["bold"] }
+"markup.italic" = { fg = "red", modifiers = ["italic"] }
+"markup.link.url" = { fg = "blue", modifiers = ["italic", "underlined"] }
+"markup.link.text" = "blue"
+"markup.link.label" = "sapphire"
+"markup.raw" = "green"
+"markup.quote" = "whisteria"
+
+"diff.plus" = "green"
+"diff.minus" = "red"
+"diff.delta" = "blue"
+
+#UI
+
+#background
+"ui.background" = {}
+
+#text
+"ui.text" = "text"
+"ui.text.focus" = { fg = "text", bg = "blue", modifiers = ["bold"] }
+"ui.text.inactive" = { fg = "jasmine" }
+"ui.text.directory" = { fg = "blue" }
+
+#bufferline
+"ui.bufferline" = { fg = "uitext", bg = "base1" }
+"ui.bufferline.active" = { fg = "base1", bg = "whisteria", modifiers = ["bold"] }
+"ui.bufferline.background" = { bg = "base1" }
+
+#linenumber
+"ui.linenr" = { fg = "uitext" }
+"ui.linenr.selected" = { fg = "whisteria" }
+
+#statusline
+"ui.statusline" = { fg = "uitext", bg = "base1" }
+"ui.statusline.inactive" = { fg = "uitext", bg = "base1" }
+"ui.statusline.normal" = { fg = "base1", bg = "jasmine", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "base1", bg = "whisteria", modifiers = ["bold"]  }
+"ui.statusline.select" = { fg = "base1", bg = "blue", modifiers = ["bold"]  }
+
+#popups
+"ui.popup" = { fg = "base1", bg = "jasmine", modifiers = ["bold"] }
+"ui.window" = { fg = "jasmine" }
+"ui.help" = { fg = "base1", bg = "whisteria", modifiers = ["bold"] }
+
+#lsp
+"ui.menu" = { fg = "text", bg = "base1" }
+"ui.menu.selected" = { fg = "base1", bg = "whisteria", modifiers = ["bold"] }
+
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "jasmine", style = "curl" } }
+"diagnostic.info" = { underline = { color = "blue", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "teal", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+
+error = "red"
+warning = "jasmine"
+info = "blue"
+hint = "teal"
+
+#selection
+"ui.selection" = { bg = "overlay" }
+"ui.highlight" = { bg = "overlay", modifiers = ["bold"] }
+"ui.cursorline.primary" = { bg = "overlay" }
+
+"ui.cursor" = { fg = "uitext" }
+"ui.cursor.primary" = { fg = "base1", bg = "jasmine" }
+"ui.cursor.match" = { fg = "jasmine", modifiers = ["bold"] }
+"ui.cursor.primary.normal" = { fg = "base1", bg = "jasmine" }
+"ui.cursor.primary.insert" = { fg = "base1", bg = "whisteria" }
+"ui.cursor.primary.select" = { fg = "base1", bg = "blue" }
+
+
+
+
+[palette]
+
+overlay = "#303033"
+base0 = "#28282B"
+base1 = "#49494B"
+uitext = "#777780"
+text  = "#CAD3F5"
+whisteria = "#CA9EE6"
+jasmine = "#FECF76"
+blue = "#61C6F6"
+red = "#DC143C"
+teal = "#8BD5CA"
+sapphire = "#7DC4E4"
+peach = "#F5A97F"
+green = "#A6DA95"
+maroon = "#EE99A0"

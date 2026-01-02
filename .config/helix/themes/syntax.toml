@@ -1,0 +1,103 @@
+
+"ui.selection" = { bg = "ui.text" }
+#SyntaxHighlighting
+
+"attribute" = "ui.yellow"
+
+"type" = "ui.yellow"
+"type.enum.variant" = "ui.teal"
+
+"constructor" = "ui.sapphire"
+
+"constant" = "ui.peach"
+"constant.character" = "ui.teal"
+"constant.character.escape" = "ui.pink"
+
+"string" = "ui.green"
+"string.regexp" = "ui.pink"
+"string.special" = "ui.blue"
+"string.special.symbol" = "ui.red"
+
+"comment" = { fg = "ui.overlay2", modifiers = ["italic"] }
+
+"variable" = "ui.text"
+"variable.parameter" = { fg = "ui.maroon", modifiers = ["italic"] }
+"variable.builtin" = "ui.red"
+"variable.other.member" = "ui.blue"
+
+"label" = "ui.sapphire" # used for lifetimes
+
+"punctuation" = "ui.overlay2"
+"punctuation.special" = "ui.sky"
+
+"keyword" = "ui.mauve"
+"keyword.control.conditional" = { fg = "ui.mauve", modifiers = ["italic"] }
+
+"operator" = "ui.sky"
+
+"function" = "ui.blue"
+"function.macro" = "ui.rosewater"
+
+"tag" = "ui.blue"
+
+"namespace" = { fg = "ui.yellow", modifiers = ["italic"] }
+
+"special" = "ui.blue" # fuzzy highlight
+
+"markup.heading.1" = "ui.red"
+"markup.heading.2" = "ui.peach"
+"markup.heading.3" = "ui.yellow"
+"markup.heading.4" = "ui.green"
+"markup.heading.5" = "ui.sapphire"
+"markup.heading.6" = "ui.lavender"
+"markup.list" = "ui.teal"
+"markup.list.unchecked" = "ui.overlay2"
+"markup.list.checked" = "ui.green"
+"markup.bold" = { fg = "ui.red", modifiers = ["bold"] }
+"markup.italic" = { fg = "ui.red", modifiers = ["italic"] }
+"markup.link.url" = { fg = "ui.blue", modifiers = ["italic", "underlined"] }
+"markup.link.text" = "ui.lavender"
+"markup.link.label" = "ui.sapphire"
+"markup.raw" = "ui.green"
+"markup.quote" = "ui.pink"
+
+"diff.plus" = "ui.green"
+"diff.minus" = "ui.red"
+"diff.delta" = "ui.blue"
+
+
+
+[palette]
+ui.rosewater = "#f4dbd6"
+flamingo = "#f0c6c6"
+ui.pink = "#f5bde6"
+ui.mauve = "#c6a0f6"
+ui.red = "#ed8796"
+ui.maroon = "#ee99a0"
+ui.peach = "#f5a97f"
+ui.yellow = "#eed49f"
+ui.green = "#a6da95"
+ui.teal = "#8bd5ca"
+ui.sky = "#91d7e3"
+ui.sapphire = "#7dc4e4"
+ui.blue = "#8aadf4"
+ui.lavender = "#b7bdf8"
+ui.text = "#cad3f5"
+subtext1 = "#b8c0e0"
+subtext0 = "#a5adcb"
+ui.overlay2 = "#939ab7"
+overlay1 = "#8087a2"
+overlay0 = "#6e738d"
+surface2 = "#5b6078"
+surface1 = "#494d64"
+surface0 = "#363a4f"
+base = "#24273a"
+mantle = "#1e2030"
+crust = "#181926"
+
+cursorline = "#303347"
+secondary_cursor = "#b6a6a7"
+secondary_cursor_select = "#8b91bf"
+secondary_cursor_normal = "#b6a6a7"
+secondary_cursor_insert = "#80a57a"
+

@@ -1,0 +1,42 @@
+inherits = "syntax"
+#UI
+
+#background
+"ui.background" = { fg = "text", bg = "base0" }
+
+#statusline
+"ui.statusline"          = { fg = "text", bg = "base1" }
+"ui.statusline.inactive" = { fg = "text", bg = "bg" }
+"ui.statusline.normal"   = { fg = "text", bg = "wisteria", modifiers = ["bold"] }
+"ui.statusline.insert"   = { fg = "text", bg = "green",  modifiers = ["bold"]  }
+"ui.statusline.select"   = { fg = "text", bg = "wisteria", modifiers = ["bold"]  }
+
+#bufferline
+"ui.bufferline" = { fg = "text", bg = "base1"}
+"ui.bufferline.active" = { fg = "text", bg = "wisteria", modifiers = ["bold"]}
+"ui.bufferline.background" = { bg = "base0" }
+
+#selection
+"ui.selection" = { bg = "gray" }
+
+
+[palette]
+
+wisteria = "#CA9EE6"
+cherryblossom = "#FFB8BC"
+jasmine = "#FEDF76"
+ftext = "#CAD3F5"
+text = "#FFFFFF"
+blue = "#61C6FC"
+violet = "#F28CD9"
+gray = "#494D64"
+base0 = "#24273A"
+base1 = "#1E2030"
+
+
+
+cursorline = "#303347"
+secondary_cursor = "#b6a6a7"
+secondary_cursor_select = "#8b91bf"
+secondary_cursor_normal = "#b6a6a7"
+secondary_cursor_insert = "#80a57a"

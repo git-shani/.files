@@ -1,0 +1,17 @@
+q
+quit
+live-filter 
+set continue=true
+set repeat=false
+set play_sorted=true
+bind -f common C toggle continue
+add ~/stuff/music
+add /stuff/music
+remove
+rm
+add Music/STARDUST PHARMACY - ZØMB.flac
+save
+set status_display_program=/usr/local/bin/cmus-notify
+set status_display_program=~/.config/cmus/notify.sh
+set status_display_program=~/.config/cmus_notify/notify.sh
+add stuff/music

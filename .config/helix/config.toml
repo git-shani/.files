@@ -1,0 +1,15 @@
+theme = "matteB"
+
+[editor]
+line-number = "relative"
+cursorline = true
+color-modes = true
+bufferline = "always"
+
+[editor.cursor-shape]
+insert = "block"
+normal = "block"
+select = "underline"
+
+[editor.indent-guides]
+render = true
