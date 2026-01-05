@@ -1,0 +1,7 @@
+modmap:
+  - name:
+    remap:
+      Space:
+        held: Super_L
+        alone: Space
+        free_hold: true
