@@ -4,4 +4,8 @@ modmap:
       Space:
         held: Super_L
         alone: Space
+        alone_timeout_millis: 50
         free_hold: true
+        
+        
+        
